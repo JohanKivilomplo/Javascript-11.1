@@ -1,0 +1,42 @@
+*{
+    font-family: 'Rowdies', cursive;
+}
+html, body {
+    margin:0px;
+    height:100%;
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    align-items: center;
+    background: #EDE0D4;
+}
+
+h1 {
+    color: #7F5539;
+    grid-column: 2 / 4;
+}
+button {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    width: 600px;
+    height: 120px;
+    background:#B08968;
+    align-content: center;
+    margin-left: 80px;
+}
+.imagebox {
+    display: flex;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-left: 160px;
+}
+img {
+   object-fit: contain;
+   height: 400px;
+    width: 425px;
+}
