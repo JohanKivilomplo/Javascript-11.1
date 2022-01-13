@@ -9,7 +9,7 @@ html, body {
     height: 100%;
     display: grid;
     grid-template-rows: 25% 50% 25%;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 10% 10% 20% 10% 10% 20%;
     text-align: center;
     align-items: center;
     background: #EDE0D4;
@@ -17,23 +17,42 @@ html, body {
 
 h1 {
     color: #7F5539;
-    grid-column: 2 / 4;
+    grid-column: 3 / 6;
 }
-button {
+#btnClick {
     grid-row-start: 3;
-    grid-column-start: 2;
-    width: 600px;
-    height: 120px;
+    grid-column-start: 4;
+    width: 308px;
+    height: 65px;
     background:#B08968;
     align-content: center;
-    margin-left: 80px;
+    color: #EDE0D4;
+    font-size: x-large;
+}
+#labrador {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    width: 154px;
+    height: 65px;
+    background:#7F5539;
+    align-content: center;
+    color:#EDE0D4;
+    font-size: x-large;
+}
+#husky {
+    grid-row-start: 3;
+    grid-column-start: 6;
+    width: 154px;
+    height: 65px;
+    background:#7F5539;
+    align-content: center;
+    color: #EDE0D4;
+    font-size: x-large;
 }
 .imagebox {
-    display: flex;
     grid-row-start: 2;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    margin-left: 160px;
+    grid-column-start: 3;
+    grid-column-end: 6;
 }
 img {
    object-fit: contain;
